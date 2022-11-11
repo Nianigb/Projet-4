@@ -42,7 +42,6 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    z-index: 1;
 }
 
 .bloc .container {
@@ -97,7 +96,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    z-index: -1;
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
@@ -464,7 +462,7 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(255, 255, 255, 0.3);
 }
 
 button {
@@ -768,12 +766,17 @@ h4 {
     font-size: 16px;
 }
 
-.text-center.tc-white{
+h2.col-sm-12.text-center.tc-white{
+    position: relative;
     white-space: pre-line;
 }
 
 #bloc-6 p.text-center.tc-white {
     font-size: 16px;
+}
+
+.scrollToTop.showScrollTop {
+    color: #ffffff!important;
 }
 
 .bold-link {
