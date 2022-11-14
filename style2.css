@@ -697,7 +697,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000000!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -741,7 +741,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -790,7 +790,7 @@ h2.col-sm-12.text-center.tc-white{
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #171717;
 }
 
 .bgc-atomic-tangerine {
@@ -803,16 +803,16 @@ h2.col-sm-12.text-center.tc-white{
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white:hover {
