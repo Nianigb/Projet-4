@@ -761,6 +761,8 @@ h4 {
 }
 
 .portfolio-thumb {
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 24px;
 }
 
@@ -897,13 +899,13 @@ h2.col-sm-12.text-center.tc-white {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -925,8 +927,8 @@ h2.col-sm-12.text-center.tc-white {
     }
 
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
     }
 
     .bloc-group,
@@ -938,8 +940,8 @@ h2.col-sm-12.text-center.tc-white {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
     }
 }
 
@@ -1123,8 +1125,8 @@ h2.col-sm-12.text-center.tc-white {
         text-align: center;
     }
 
-    .portfolio-row {
-        margin-left: 45px;
-        margin-right: 45px;
+    .social {
+        display: flex;
+        justify-content: space-between;
     }
 }
