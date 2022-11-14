@@ -744,6 +744,7 @@ h4 {
     color: #000000!important;
 }
 
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -770,6 +771,7 @@ h2.col-sm-12.text-center.tc-white{
     position: relative;
     white-space: pre-line;
 }
+
 
 #bloc-6 p.text-center.tc-white {
     font-size: 16px;
@@ -801,6 +803,7 @@ h2.col-sm-12.text-center.tc-white{
     color: #F3976C!important;
 }
 
+
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #000000!important;
@@ -831,6 +834,8 @@ h2.col-sm-12.text-center.tc-white{
     color: #364577!important;
     border-color: #364577!important;
 }
+
+
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
