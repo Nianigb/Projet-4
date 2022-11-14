@@ -356,6 +356,10 @@ a:hover {
     width: 26px;
 }
 
+.icon-bar {
+    content-visibility: hidden;
+}
+
 .nav-invert .navbar .nav {
     float: left;
 }
@@ -661,6 +665,10 @@ a {
 
 .container {
     max-width: 1000px;
+}
+
+h1.hero-bloc-text, p.tight-width-whitespace {
+    color: #000000;
 }
 
 .hero-bloc-text {
